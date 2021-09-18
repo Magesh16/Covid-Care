@@ -27,7 +27,7 @@
     justify-content: center;
   
     padding: 2rem;
-    background: #005fff;
+    background:repeating-linear-gradient( to bottom,#d7dbe4,#fab945);
   }
   
   .auth__form-container_image {
