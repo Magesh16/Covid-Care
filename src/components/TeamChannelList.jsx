@@ -22,7 +22,7 @@ const TeamChannelList = ({ children, error = false, loading, type }) => {
         )
     }
 
-    const TeamChannelList = () => {
+   
         return (
             <div className="team-channel-list">
                 <div className="team-channel-list__header">
@@ -33,7 +33,7 @@ const TeamChannelList = ({ children, error = false, loading, type }) => {
                 </div>
                 {children}
             </div>
-        )
-    }
+        );
+    
 }
 export default TeamChannelList;
