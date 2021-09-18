@@ -458,8 +458,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.2);
+    height: 30px;
+    background:  rgb(223, 181, 181);
     border-radius: 8px;
     margin-bottom: 8px;
     border: 1px solid transparent;
@@ -479,7 +479,7 @@
   .channel-search__input__text {
     background: none;
     border: none;
-    color: #fff;
+    color: rgb(15, 15, 15);
     font-family: Helvetica Neue, sans-serif;
     font-size: 16px;
     outline: none;
