@@ -7,19 +7,16 @@ import "./App.css";
 
 
 const apikey = "83924mre6spp";
-
 const client = StreamChat.getInstance(apikey);
 const App = () => {
     return (
-        <div>
             <div className="app__wrapper">
                 <Chat client={client} theme="team light">
                     <ChannelListContainer />
                     <ChannelContainer />
                 </Chat>
             </div>
-        </div>
     )
 }
 
-export default App
+export default App;
