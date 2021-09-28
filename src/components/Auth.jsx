@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Cookies from 'universal-cookie';
 import axios from 'axios';
-import signinImage from '../assets/signup.jpg';
+import signinImage from '../assets/covidcare6.jpg';
 
 const cookies = new Cookies();
 const initialState = {
@@ -51,7 +51,7 @@ const Auth = ()=>{
         <div className="auth__form-container">
             <div className="auth__form-container_fields">
                 <div className="auth__form-container_fields-content">
-                    <p>{isSignup ? 'Sign Up' : 'Sign In'}</p>
+                    <p>{isSignup ? 'Register' : 'Login'}</p>
                     <form onSubmit={handleSubmit}>
                         {isSignup && (
                             <div className="auth__form-container_fields-content_input">
@@ -132,7 +132,7 @@ const Auth = ()=>{
                              : "Don't have an account?"
                              }
                              <span onClick={switchMode}>
-                             {isSignup ? 'Sign In' : 'Sign Up'}
+                             {isSignup ? ' Sign In' : ' Sign Up'}
                              </span>
                         </p>
                     </div>
